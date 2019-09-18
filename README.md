@@ -53,7 +53,6 @@ AwesomeProject
 │	├─ LaunchScreen.storyboard
 │	├─ Assets.xcassets
 │	├─ ProjectName.entitlements
-│	├─ Info.Plist
 │	├─ BuildConfigs
 │	└─ ···
 ├─Sources
