@@ -117,7 +117,7 @@ enum Apprearance {
 - [ ] [R.swift](https://github.com/mac-cain13/R.swift) 自动将各种资源强类型化
 - [ ] [SwiftDate](https://github.com/malcommac/SwiftDate)/[DateTool](https://github.com/MatthewYork/DateTools) 时间日期处理库
 - [ ] [RxSwift](https://github.com/ReactiveX/RxSwift) 响应式编程框架 by [ReactiveX.io](http://reactivex.io/)
-- [ ] [LayoutKit]() 高性能视图布局库
+- [ ] [LayoutKit](https://github.com/linkedin/LayoutKit) 高性能视图布局库
 - [ ] [Kingfisher](https://github.com/onevcat/Kingfisher) 轻量级图片下载缓存库
 - [ ] [NSLogger](https://github.com/fpillet/NSLogger) 便捷日志工具
 - [ ] [Willow](https://github.com/Nike-Inc/Willow) 轻量级日志工具 [教程](https://medium.com/joshtastic-blog/convenient-logging-in-swift-75e1adf6ba7c)
