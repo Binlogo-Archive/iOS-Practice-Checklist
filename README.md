@@ -113,7 +113,6 @@ enum Apprearance {
 - [ ] [Alamofire](https://github.com/Alamofire/Alamofire) 网络库
 - [ ] [Moya](https://github.com/Moya/Moya) 基于Alamofire 封装的网络抽象层
 - [ ] [Reachability.swift](https://github.com/ashleymills/Reachability.swift) 用于网络状况检查
-
 - [ ] [R.swift](https://github.com/mac-cain13/R.swift) 自动将各种资源强类型化
 - [ ] [SwiftDate](https://github.com/malcommac/SwiftDate)/[DateTool](https://github.com/MatthewYork/DateTools) 时间日期处理库
 - [ ] [RxSwift](https://github.com/ReactiveX/RxSwift) 响应式编程框架 by [ReactiveX.io](http://reactivex.io/)
@@ -122,6 +121,9 @@ enum Apprearance {
 - [ ] [NSLogger](https://github.com/fpillet/NSLogger) 便捷日志工具
 - [ ] [Willow](https://github.com/Nike-Inc/Willow) 轻量级日志工具 [教程](https://medium.com/joshtastic-blog/convenient-logging-in-swift-75e1adf6ba7c)
 - [ ] [FLEX](https://github.com/Flipboard/FLEX)/[DoraemonKit](https://github.com/didi/DoraemonKit) 应用内 Debug 工具库
+- [ ] Keychain 便捷封装库
+  * [KeychainAccess](https://github.com/kishikawakatsumi/KeychainAccess)
+  * [Valet](https://github.com/square/Valet) by *Square, Inc.*
 
 ## 架构
 
