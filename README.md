@@ -18,10 +18,12 @@
 ### Xcode
 
 - [ ] [Apple 帮助 - Xcode](https://help.apple.com/xcode/mac)
+- [ ] 配置 Target 
 
 ### .gitignore
 
 - [ ] Git 添加 `.gitignore`: [Swift](https://github.com/github/gitignore/blob/master/Swift.gitignore) or [Objective-C](https://github.com/github/gitignore/blob/master/Objective-C.gitignore)
+  - [ ] 工具：[gitignore.io](https://gitignore.io/)
 
 ### 依赖管理
 
