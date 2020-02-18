@@ -158,6 +158,9 @@ enum Apprearance {
 let fooViewController = FooViewController(withViewModel: fooViewModel)
 ```
 
+## 设计模式
+- [ ] 设计模式 Swift 示例 [英文原文](https://github.com/ochococo/Design-Patterns-In-Swift) [中文翻译](https://github.com/Binlogo/Design-Patterns-In-Swift-CN)
+
 ## 数据储存
 
 - [ ] 避免“回调地狱”（callback hell）
