@@ -1,4 +1,4 @@
-# iOS 实践检查清单
+# iOS 实践与精进检查清单
 
 > 回顾即开始
 
@@ -291,7 +291,46 @@ extension FooViewController {
 - [ ] 性能剖析
   - [ ] [Apple 帮助 - Instruments](https://help.apple.com/instruments/mac)
 
+## 开发社区
 
+> 借助社区的力量，并积极融入社区，贡献自己的力量
 
+### 课程网站
 
+- [Ray Wenderlich](https://www.raywenderlich.com/)
+- [nshipster.com](https://nshipster.com/)
+- [objc.io](https://www.objc.io/blog/)
+- [AppCoda](https://www.appcoda.com/)
+- [pointfree.co](https://www.pointfree.co/)
+
+### 博客
+
+- [Paul Hudson](https://hackingwithswift.com/)
+- [John Sundell](https://www.swiftbysundell.com/)
+- [Antoine van der Lee](https://www.avanderlee.com/)
+- [Vadim Bulavin](https://www.vadimbulavin.com/)
+- [Keith Harrison](https://useyourloaf.com/)
+- [Majid Jabrayilov](https://swiftwithmajid.com/)
+- [Bart Jacobs](https://cocoacasts.com/)
+- [Soroush Khanlou](http://khanlou.com/)
+- [Erica Sadun](https://ericasadun.com/)
+- [Andrew Bancroft](https://www.andrewcbancroft.com/)
+
+### 订阅
+
+- [iOS Goodies](http://ios-goodies.com/)
+- [iOS Dev Weekly](https://iosdevweekly.com/)
+- [Swift Developments](https://andybargh.com/swiftdevelopments/)
+- [Indie iOS focus weekly](http://indieiosfocus.com/)
+
+### 播客
+
+- [iOS Dev Discussions](https://podcasts.apple.com/us/podcast/ios-dev-discussions-sean-allen/id1426167395)
+- [Swift over Coffee](https://podcasts.apple.com/us/podcast/swift-over-coffee/id1435076502)
+- [Swift by Sundell](https://swiftbysundell.com/podcast/)
+- [iPhreaks](https://devchat.tv/iphreaks/)
+
+### 开发者
+
+* [Genius-Track](https://github.com/Binlogo/Genius-Track)
 
