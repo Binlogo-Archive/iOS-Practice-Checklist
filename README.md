@@ -18,11 +18,16 @@
 ### Xcode
 
 - [ ] [Apple 帮助 - Xcode](https://help.apple.com/xcode/mac)
-- [ ] 配置 Target 
+- [ ] 自定义项目信息配置 - IDETemplateMacros.plist
+
+  - [帮助文档](https://help.apple.com/xcode/mac/9.0/index.html?localePath=en.lproj#/dev7fe737ce0)
+
+- [ ] 配置 Target
 
 ### .gitignore
 
 - [ ] Git 添加 `.gitignore`: [Swift](https://github.com/github/gitignore/blob/master/Swift.gitignore) or [Objective-C](https://github.com/github/gitignore/blob/master/Objective-C.gitignore)
+
   - [ ] 工具：[gitignore.io](https://gitignore.io/)
 
 ### 依赖管理
@@ -50,21 +55,21 @@ carthage bootstrap/update # 安装或更新依赖
 ```
 AwesomeProject
 ├─ Assets
-│	├─ Info.Plist
-│	├─ Localizable.strings
-│	├─ R.generated.swift # 可选，R.swift 生成
-│	├─ LaunchScreen.storyboard
-│	├─ Assets.xcassets
-│	├─ ProjectName.entitlements
-│	├─ BuildConfigs
-│	└─ ···
+│    ├─ Info.Plist
+│    ├─ Localizable.strings
+│    ├─ R.generated.swift # 可选，R.swift 生成
+│    ├─ LaunchScreen.storyboard
+│    ├─ Assets.xcassets
+│    ├─ ProjectName.entitlements
+│    ├─ BuildConfigs
+│    └─ ···
 ├─Sources
-│	├─ Modules
+│    ├─ Modules
 │   ├─ MyModule
 │   │   │   ├─ Models
 │   │   │   ├─ Views
 │   │   │   └─ Controllers (or ViewModels)
-│   │	└─ ···
+│   │    └─ ···
 │   ├─ Stores
 │   ├─ Helpers
 │   ├─ Utilities
@@ -77,9 +82,11 @@ AwesomeProject
 ```
 
 - [ ] 字符串本地化（Localization）
+
   - [ ] [WWDC 404 - New Localization Workflows in Xcode 10](https://developer.apple.com/videos/play/wwdc2018/404/)
   - [ ] [WWDC 401 - Localizing with Xcode 9](https://developer.apple.com/videos/play/wwdc2017/401)
   - [ ] [WWDC 201 - Internationalization Best Practices](https://developer.apple.com/videos/play/wwdc2016/201)
+
 - [ ] 最小化常量作用域（Constants）
 
 ```swift
@@ -95,11 +102,11 @@ enum Apprearance {
     }
     enum Color {
         static let primaryColor = UIColor(red: 0.22, green: 0.58, blue: 0.29, alpha: 1.0)
-    	static let secondaryColor = UIColor.lightGray
+        static let secondaryColor = UIColor.lightGray
         static let background = UIColor.white
 
         enum Red {
-           	// 可视化颜色
+               // 可视化颜色
             static let medium = #colorLiteral(red: 0.22, green: 0.58, blue: 0.29, alpha: 1.0)
             static let light = #colorLiteral(red: 0.22, green: 0.58, blue: 0.29, alpha: 1.0)
         }
@@ -107,14 +114,15 @@ enum Apprearance {
 }
 ```
 
-- [ ] Git 分支模型 
+- [ ] Git 分支模型
+
   - [ ] [git-flow 的工作流 - Tower](https://www.git-tower.com/learn/git/ebook/cn/command-line/advanced-topics/git-flow)
   - [ ] [gitflow-avh 拓展](https://github.com/petervanderdoes/gitflow-avh)
 
 ## 实用公共库
 
 - [ ] [Alamofire](https://github.com/Alamofire/Alamofire) 网络库
-- [ ] [Moya](https://github.com/Moya/Moya) 基于Alamofire 封装的网络抽象层
+- [ ] [Moya](https://github.com/Moya/Moya) 基于 Alamofire 封装的网络抽象层
 - [ ] [Reachability.swift](https://github.com/ashleymills/Reachability.swift) 用于网络状况检查
 - [ ] [R.swift](https://github.com/mac-cain13/R.swift) 自动将各种资源强类型化
 - [ ] [SwiftDate](https://github.com/malcommac/SwiftDate)/[DateTool](https://github.com/MatthewYork/DateTools) 时间日期处理库
@@ -125,8 +133,9 @@ enum Apprearance {
 - [ ] [Willow](https://github.com/Nike-Inc/Willow) 轻量级日志工具 [教程](https://medium.com/joshtastic-blog/convenient-logging-in-swift-75e1adf6ba7c)
 - [ ] [FLEX](https://github.com/Flipboard/FLEX)/[DoraemonKit](https://github.com/didi/DoraemonKit) 应用内 Debug 工具库
 - [ ] Keychain 便捷封装库
-  * [KeychainAccess](https://github.com/kishikawakatsumi/KeychainAccess)
-  * [Valet](https://github.com/square/Valet) by *Square, Inc.*
+
+  - [KeychainAccess](https://github.com/kishikawakatsumi/KeychainAccess)
+  - [Valet](https://github.com/square/Valet) by _Square, Inc._
 
 ## 架构
 
@@ -138,20 +147,23 @@ enum Apprearance {
 ### Model
 
 - [ ] 保持 Model 不可变性, `struct` + `Codable` [Apple 文档](https://developer.apple.com/documentation/foundation/archives_and_serialization/encoding_and_decoding_custom_types)
-- [ ] [SwiftyJSON](https://github.com/SwiftyJSON/SwiftyJSON) / [Argo](https://github.com/thoughtbot/Argo)  [可选]
+- [ ] [SwiftyJSON](https://github.com/SwiftyJSON/SwiftyJSON) / [Argo](https://github.com/thoughtbot/Argo) [可选]
 
 ### Views
 
 - [ ] 采用 AutoLayout 布局
+
   - [ ] [Apple 文档 - NSLayoutAnchor](https://developer.apple.com/documentation/uikit/nslayoutanchor)
   - [ ] [WWDC 220 - High Performance Auto Layout](https://developer.apple.com/videos/play/wwdc2018/220)
-  - [ ] [WWDC 218 - Mysteries of Auto Layout, Part 1](https://developer.apple.com/videos/play/wwdc2015/218) 
+  - [ ] [WWDC 218 - Mysteries of Auto Layout, Part 1](https://developer.apple.com/videos/play/wwdc2015/218)
   - [ ] [WWDC 219 - Mysteries of Auto Layout, Part 2](https://developer.apple.com/videos/play/wwdc2015/219)
 
 ### Controllers
 
 - [ ] 避免控制器臃肿
-  - [ ]  [8 Patterns to Help You Destroy Massive View Controller](http://khanlou.com/2014/09/8-patterns-to-help-you-destroy-massive-view-controller/)
+
+  - [ ] [8 Patterns to Help You Destroy Massive View Controller](http://khanlou.com/2014/09/8-patterns-to-help-you-destroy-massive-view-controller/)
+
 - [ ] 尽量采用依赖注入而不是单例
 
 ```swift
@@ -159,11 +171,12 @@ let fooViewController = FooViewController(withViewModel: fooViewModel)
 ```
 
 ## 设计模式
+
 - [ ] 设计模式 Swift 示例 [英文原文](https://github.com/ochococo/Design-Patterns-In-Swift) [中文翻译](https://github.com/Binlogo/Design-Patterns-In-Swift-CN)
 
 ## 数据储存
 
-- [ ] 避免“回调地狱”（callback hell）
+- [ ] 避免"回调地狱"（callback hell）
 - [ ] [RxSwift](https://github.com/ReactiveX/RxSwift) 异步响应式编程
 
 ```swift
@@ -173,6 +186,7 @@ func fetchGigs(for artist: Artist) -> Observable<[Gig]> {
 ```
 
 - [ ] CoreData 持久化
+
   - [ ] [Apple 文档 - Core Data](https://developer.apple.com/documentation/coredata)
   - [ ] [WWDC 224 - Core Data Best Practices](https://developer.apple.com/videos/play/wwdc2018/224/)
 
@@ -202,55 +216,54 @@ class FooViewController : UIViewController {
     // MARK: Lifecycle
 
     // Custom initializers go here
-	···
+    ···
 }
 
 // MARK: View Lifecycle
 extension FooViewController {
-    
+
     override func viewDidLoad() {
         super.viewDidLoad()
         // ...
     }
-    
+
 }
 
 // MARK: Layout
 extension FooViewController {
-    
+
     private func makeViewConstraints() {
         // ...
     }
-    
+
 }
 
 // MARK: User Interaction
 extension FooViewController {
-   	
+
     func foobarButtonTapped() {
         // ...
     }
-    
+
 }
 
 // MARK: FoobarDelegate
 extension FooViewController: FoobarDelegate {
-    
+
     func foobar(foobar: Foobar, didSomethingWithFoo foo: Foo) {
         // ...
     }
-    
+
 }
 
 // MARK: Helpers
 extension FooViewController {
-        
+
     private func displayNameForFoo(foo: Foo) {
         // ...
     }
-    
-}
 
+}
 ```
 
 ## 安全性
@@ -261,6 +274,7 @@ extension FooViewController {
 
 - [ ] Token、用户名密码及部分隐私敏感数据避免采用 `UserDefault` 或 `CoreData` 等非加密持久化方式
 - [ ] 采用 `KeyChain` 加密储存敏感数据
+
   - [ ] [Apple 文档 - Storing Keys in the Keychain](https://developer.apple.com/documentation/security/certificate_key_and_trust_services/keys/storing_keys_in_the_keychain)
   - [ ] [KeychainAccess](https://github.com/kishikawakatsumi/KeychainAccess)
 
@@ -278,17 +292,23 @@ extension FooViewController {
 
 - [ ] `UITextField` 用于密码等敏感信息输入时设置`secureTextEntry` 为 `true`
 - [ ] 必要时清空剪贴板等可能存在的敏感数据
+
   - [ ] `applicationDidEnterBackground`
 
 ## 诊断
 
 - [ ] 重视并尽量解决编译器警告
 - [ ] 静态分析
-  - [ ] *Product → Analyze*
+
+  - [ ] _Product → Analyze_
+
 - [ ] 调试
+
   - [ ] 开启 `Exception` 断点
   - [ ] [Reveal](http://revealapp.com/) 视图调试
+
 - [ ] 性能剖析
+
   - [ ] [Apple 帮助 - Instruments](https://help.apple.com/instruments/mac)
 
 ## 开发社区
@@ -332,5 +352,4 @@ extension FooViewController {
 
 ### 开发者
 
-* [Genius-Track](https://github.com/Binlogo/Genius-Track)
-
+- [Genius-Track](https://github.com/Binlogo/Genius-Track)
